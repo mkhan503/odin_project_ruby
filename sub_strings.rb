@@ -16,4 +16,5 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
 
+#chekcing 
 
