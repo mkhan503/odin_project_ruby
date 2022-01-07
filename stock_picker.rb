@@ -15,7 +15,6 @@ def stock_picker(prices)
 
     max = profits.max
 
-
     data_day_profit = convert_arrays_to_hash(days_pairs,profits)
     #find the value with max profits, return k-v pair for that with the days combo and return the days combo, since it is the first element of the array
     p data_day_profit.key(max)
@@ -27,7 +26,7 @@ def convert_arrays_to_hash(a,b)
     for i in (0..(a.length - 1))
         hash[a[i]] = b[i]
     end
-hash
+    hash
 
 end
 
